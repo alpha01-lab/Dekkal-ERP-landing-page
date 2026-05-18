@@ -27,7 +27,14 @@
   font-size: 1.75rem;
   font-weight: 800;
   display: flex;
-  align-items: baseline;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo-img {
+  height: 32px;
+  width: auto;
+  border-radius: 8px; /* Smooth corners for the image */
 }
 
 .logo-text {

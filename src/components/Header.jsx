@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import logoImage from '../assets/dekkal-logo.png';
 import './Header.css';
 
 const Header = ({ onOpenContact }) => {
@@ -17,6 +18,7 @@ const Header = ({ onOpenContact }) => {
     <header className={`header ${scrolled ? 'header-scrolled glass' : ''}`}>
       <div className="header-container">
         <div className="logo">
+          <img src={logoImage} alt="Dëkkal Logo" className="logo-img" />
           <span className="logo-text">Dëkkal</span>
           <span className="logo-dot">.</span>
         </div>

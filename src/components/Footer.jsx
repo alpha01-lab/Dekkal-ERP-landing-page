@@ -1,3 +1,4 @@
+import logoImage from '../assets/dekkal-logo.png';
 import './Footer.css';
 
 const Footer = () => {
@@ -7,6 +8,7 @@ const Footer = () => {
         <div className="footer-grid">
           <div className="footer-brand">
             <div className="logo mb-4">
+              <img src={logoImage} alt="Dëkkal Logo" className="logo-img" />
               <span className="logo-text">Dëkkal</span>
               <span className="logo-dot">.</span>
             </div>
