@@ -1,35 +1,37 @@
 import './Features.css';
 
+import { Package, ReceiptText, TrendingUp, Wallet, Smartphone, WifiOff } from 'lucide-react';
+
 const featuresList = [
   {
     title: 'Gestion des Stocks',
     description: 'Suivez vos niveaux de stock en temps réel, recevez des alertes avant rupture et gérez vos inventaires multi-boutiques sans effort.',
-    icon: '📦',
+    icon: <Package size={40} strokeWidth={1.5} color="var(--primary)" />,
   },
   {
     title: 'Facturation Automatisée',
     description: 'Créez des factures professionnelles en quelques clics. Envoyez-les par WhatsApp ou email directement à vos clients.',
-    icon: '🧾',
+    icon: <ReceiptText size={40} strokeWidth={1.5} color="var(--primary)" />,
   },
   {
     title: 'Suivi des Ventes',
     description: 'Analysez vos performances avec des tableaux de bord clairs. Identifiez vos produits les plus vendus et vos meilleurs clients.',
-    icon: '📈',
+    icon: <TrendingUp size={40} strokeWidth={1.5} color="var(--primary)" />,
   },
   {
     title: 'Gestion des Dépenses',
     description: 'Gardez un œil sur votre trésorerie. Enregistrez vos dépenses pour calculer votre bénéfice net automatiquement.',
-    icon: '💸',
+    icon: <Wallet size={40} strokeWidth={1.5} color="var(--primary)" />,
   },
   {
     title: 'Paiements Mobiles',
     description: 'Intégrez facilement les paiements par Wave, Orange Money et Free Money pour faciliter les transactions de vos clients.',
-    icon: '📱',
+    icon: <Smartphone size={40} strokeWidth={1.5} color="var(--primary)" />,
   },
   {
     title: 'Mode Hors-ligne',
     description: 'Continuez à travailler même sans connexion internet. Les données se synchronisent automatiquement dès le retour du réseau.',
-    icon: '🔄',
+    icon: <WifiOff size={40} strokeWidth={1.5} color="var(--primary)" />,
   },
 ];
 
